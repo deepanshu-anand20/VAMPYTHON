@@ -8,10 +8,10 @@
 #     print(x)
 # print this pattern using for loop 1,3,5,7,9 
 # for y in range(1,12,2): # (start,ending + 1,step size) :solve by step size.
-    # print(y)
+#     print(y)
 # for z in range(1,12): # :solve by if statement and '%' operator.
-    # if z%2 != 0:
-        # print(z) 
+#     if z%2 != 0:
+#         print(z) 
 # print the even numbers and odd numbers using for loop between 1 to 20
 for r in range(1,21):
     if r % 2 != 0:
