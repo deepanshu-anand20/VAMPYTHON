@@ -14,8 +14,8 @@ print("My Name is " + name , "And Age ", age, "And Salary ", salary)
 # solution 2 : pass the variables in print statement with f()
 print(f"My Name is {name} Salary is {salary} and Age is {age}")
 # solution 3 : typecast the data into string. 
-salarystring = string(salary)
-agestring = string(age)
+salarystring = str(salary)
+agestring = str(age)
 print("My Name is "+ name + "And Age "+ agestring + "And Salary " + salarystring)
 # To find the type of data we use the type() function: 
 print(type(name))
